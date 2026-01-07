@@ -1,0 +1,50 @@
+# LL-journal Git Ignore
+# https://api.lifelogger.life
+# company: Tellurian Corp (https://www.telluriancorp.com)
+# created in: December 2025
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+ll-journal
+*.o
+*.so
+*.dylib
+*.exe
+*.test
+*.out
+
+# Go build cache
+go.work
+go.work.sum
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+out/
